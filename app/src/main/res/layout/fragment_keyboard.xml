@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".blue_tooth_control_panel.keyboard_fragment.KeyboardFragment">
+
+    <Button
+        android:id="@+id/button_KeyboardFragment"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="坦克左转"
+        app:layout_constraintVertical_weight="1"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/button2_KeyboardFragment"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/button4_KeyboardFragment"/>
+
+    <Button
+        android:id="@+id/button2_KeyboardFragment"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="前进"
+        app:layout_constraintVertical_weight="1"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintLeft_toRightOf="@id/button_KeyboardFragment"
+        app:layout_constraintRight_toLeftOf="@id/button3_KeyboardFragment"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/button5_KeyboardFragment" />
+
+    <Button
+        android:id="@+id/button3_KeyboardFragment"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="坦克右转"
+        app:layout_constraintVertical_weight="1"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintLeft_toRightOf="@id/button2_KeyboardFragment"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/button6_KeyboardFragment"/>
+
+    <Button
+        android:id="@+id/button4_KeyboardFragment"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="左转"
+        app:layout_constraintVertical_weight="1"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/button5_KeyboardFragment"
+        app:layout_constraintTop_toBottomOf="@id/button_KeyboardFragment"
+        app:layout_constraintBottom_toTopOf="@id/button7_KeyboardFragment"/>
+
+    <Button
+        android:id="@+id/button5_KeyboardFragment"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="停"
+        app:layout_constraintVertical_weight="1"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintLeft_toRightOf="@id/button4_KeyboardFragment"
+        app:layout_constraintRight_toLeftOf="@id/button6_KeyboardFragment"
+        app:layout_constraintTop_toBottomOf="@id/button2_KeyboardFragment"
+        app:layout_constraintBottom_toTopOf="@id/button8_KeyboardFragment"/>
+
+    <Button
+        android:id="@+id/button6_KeyboardFragment"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="右转"
+        app:layout_constraintVertical_weight="1"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintLeft_toRightOf="@id/button5_KeyboardFragment"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/button3_KeyboardFragment"
+        app:layout_constraintBottom_toTopOf="@id/button9_KeyboardFragment"/>
+
+    <Button
+        android:id="@+id/button7_KeyboardFragment"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="循迹"
+        app:layout_constraintVertical_weight="1"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/button8_KeyboardFragment"
+        app:layout_constraintTop_toBottomOf="@id/button4_KeyboardFragment"
+        app:layout_constraintBottom_toTopOf="@id/button10_KeyboardFragment"/>
+
+    <Button
+        android:id="@+id/button8_KeyboardFragment"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="后退"
+        app:layout_constraintVertical_weight="1"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintLeft_toRightOf="@id/button7_KeyboardFragment"
+        app:layout_constraintRight_toLeftOf="@id/button9_KeyboardFragment"
+        app:layout_constraintTop_toBottomOf="@id/button5_KeyboardFragment"
+        app:layout_constraintBottom_toTopOf="@id/button11_KeyboardFragment"/>
+
+    <Button
+        android:id="@+id/button9_KeyboardFragment"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="超声波跟随"
+        app:layout_constraintVertical_weight="1"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintLeft_toRightOf="@id/button8_KeyboardFragment"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/button6_KeyboardFragment"
+        app:layout_constraintBottom_toTopOf="@id/button12_KeyboardFragment"/>
+
+    <Button
+        android:id="@+id/button10_KeyboardFragment"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="避障"
+        app:layout_constraintVertical_weight="1"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/button11_KeyboardFragment"
+        app:layout_constraintTop_toBottomOf="@id/button7_KeyboardFragment"
+        app:layout_constraintBottom_toTopOf="@id/button13_KeyboardFragment"/>
+
+    <Button
+        android:id="@+id/button11_KeyboardFragment"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="开灯"
+        app:layout_constraintVertical_weight="1"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintLeft_toRightOf="@id/button10_KeyboardFragment"
+        app:layout_constraintRight_toLeftOf="@id/button12_KeyboardFragment"
+        app:layout_constraintTop_toBottomOf="@id/button8_KeyboardFragment"
+        app:layout_constraintBottom_toTopOf="@id/button14_KeyboardFragment"/>
+
+    <Button
+        android:id="@+id/button12_KeyboardFragment"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="关灯"
+        app:layout_constraintVertical_weight="1"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintLeft_toRightOf="@id/button11_KeyboardFragment"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/button9_KeyboardFragment"
+        app:layout_constraintBottom_toTopOf="@id/button15_KeyboardFragment"/>
+
+    <Button
+        android:id="@+id/button13_KeyboardFragment"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="1档"
+        app:layout_constraintVertical_weight="1"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/button14_KeyboardFragment"
+        app:layout_constraintTop_toBottomOf="@id/button10_KeyboardFragment"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <Button
+        android:id="@+id/button14_KeyboardFragment"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="2档"
+        app:layout_constraintVertical_weight="1"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintLeft_toRightOf="@id/button13_KeyboardFragment"
+        app:layout_constraintRight_toLeftOf="@id/button15_KeyboardFragment"
+        app:layout_constraintTop_toBottomOf="@id/button11_KeyboardFragment"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <Button
+        android:id="@+id/button15_KeyboardFragment"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="3档"
+        app:layout_constraintVertical_weight="1"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintLeft_toRightOf="@id/button14_KeyboardFragment"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/button12_KeyboardFragment"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

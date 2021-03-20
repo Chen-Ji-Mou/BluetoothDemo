@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ECGChart">
+        <attr name="lineColor" format="color" />
+        <attr name="windowSize" format="integer" />
+        <attr name="graphMode" format="integer" />
+        <attr name="grid" format="boolean" />
+        <attr name="gridColor" format="color" />
+        <attr name="arrow" format="boolean" />
+        <attr name="arrowColor" format="color" />
+    </declare-styleable>
+</resources>
